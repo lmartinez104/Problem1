@@ -26,3 +26,12 @@ plot(EDUC~VOTE12, data=Ourdata)
 ```
 
 It appears that the average number of years of education is about the same for both groups. 
+
+##Numerical Summary
+
+```{r}
+favstats(EDUC~VOTE12,data=Ourdata)
+```
+
+it apears that the average number of years in education is higher in those who voted in 2012
+
